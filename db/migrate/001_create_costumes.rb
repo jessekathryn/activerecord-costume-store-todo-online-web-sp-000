@@ -10,9 +10,9 @@
 
 class CreateCostumes < ActiveRecord::Migration[5.1]
   def change
-    create_table :candies do |t|
+    create_table :costumes do |t|
       t.string :name
-      t.integer :calories
+      t.integer :price
       t.timestamps
     end
   end
