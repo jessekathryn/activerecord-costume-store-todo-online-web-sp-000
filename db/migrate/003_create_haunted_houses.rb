@@ -9,8 +9,8 @@ class CreateCostumeStores < ActiveRecord::Migration[5.1]
       t.float :price
       t.string :family_friendly
       t.datetime :open_date
-      t.string :business_status
-      t.timestamps
+      t.datetime :close_date
+      t.string :description
     end
   end
 end
