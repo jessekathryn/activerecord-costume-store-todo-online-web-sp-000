@@ -3,6 +3,6 @@
 
 class Costume < ActiveRecord::Base
   
-  def 
+
     
 end
