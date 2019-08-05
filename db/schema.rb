@@ -10,18 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 3) do
-
-  create_table "Haunted_house", force: :cascade do |t|
-    t.string "name"
-    t.string "location"
-    t.string "theme"
-    t.float "price"
-    t.boolean "family_friendly"
-    t.datetime "open_date"
-    t.datetime "close_date"
-    t.text "description"
-  end
+ActiveRecord::Schema.define(version: 2) do
 
   create_table "costume", force: :cascade do |t|
     t.string "name"
